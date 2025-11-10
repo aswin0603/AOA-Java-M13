@@ -22,7 +22,7 @@ Explanation: One possible way is : left -> down -> left -> down -> right -> down
 5. Recursively call dfs from this new stop position; if the recursive call finds the path, return true; otherwise, continue the loop or return false after all directions are checked.
 
 ## Program:
-```
+```java
 import java.util.*;
 
 public class Main {
